@@ -1,0 +1,18 @@
+.skillListItem {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0px;
+  padding-left: 20px;
+  width: 400px;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.skillInputBox {
+  width: 280px;
+  padding: 8px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg_container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Bree Serif';
+  align-items: center;
+}
+
+.mainheading {
+  color: #f0bb03;
+  font-size: 50px;
+}
+
+.mainpara {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.subbutton {
+  color: #1e293b;
+  background-color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  padding: 12px;
+  border: 0px solid #1e293b;
+  border-radius: 10px;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.emailContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.phoneContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.nameInputBox {
+  padding: 8px;
+  width: 350px;
+}
+
+.inputBoxesContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nameEmailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.nameLabel {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.educationContainer {
+  width: 75%;
+}
+
+.educationHeading {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+.addEdButton {
+  font-size: 16px;
+  padding: 6px;
+  font-family: 'Bree Serif';
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+}
+
+.addEdButtonContainer {
+  text-align: right;
+  margin-right: 24px;
+}
+
+.experienceContainer {
+  width: 75%;
+}
+
+.experienceHeading {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+.addExButtonContainer {
+  text-align: right;
+  margin-right: 24px;
+}
+
+.addExButton {
+  font-size: 16px;
+  padding: 6px;
+  font-family: 'Bree Serif';
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+}
+
+.skillContainer {
+  width: 75%;
+}
+
+.skillHeading {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 60px;
+}
+
+.addSkButtonContainer {
+  text-align: right;
+  margin-right: 24px;
+}
+
+.addSkButton {
+  font-size: 16px;
+  padding: 6px;
+  font-family: 'Bree Serif';
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+}
+
+.skillInputButtonContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.skillLabel {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 100;
+  padding-left: 20px;
+}

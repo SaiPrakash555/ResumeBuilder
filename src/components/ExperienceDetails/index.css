@@ -1,0 +1,42 @@
+.educationListItem {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+}
+
+.instituteContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.yearContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.degreeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.instituteInputBox {
+  width: 280px;
+  padding: 8px;
+}
+
+.yearInputBox {
+  width: 280px;
+  padding: 8px;
+}
+
+.degreeInputBox {
+  width: 280px;
+  padding: 8px;
+}
+
+.instituteLabel {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 6px;
+  font-weight: 100;
+}
